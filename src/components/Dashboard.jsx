@@ -66,12 +66,26 @@ function Dashboard() {
                 </div>
               </div>
             </div>
-            <div> 
+            {/* <div className="w-[1128px flex py-[10px] px-3 items-center gap-10 rounded bg-[#F2F2F2] mt-3"> */}
+            <table className="w-[1128px] mt-3">
               {/* order Id order date */}
-            </div>
-            <div> 
-              {/*  */}
-            </div>
+              <thead className="flex flex-col py-[10px] px-3  gap-10 rounded bg-[#F2F2F2]">
+                <tr>
+                  <th className="flex items-start flex-col flex-1 ">Order ID</th>
+                  <th>
+                    Order date
+                    <img src="./images/triangle.svg" alt="down" />
+                  </th>
+                  <th>Order amount</th>
+                  <th>
+                    Transaction fees <img src="./images/info.svg" alt="info" />
+                  </th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+            {/* </div> */}
+            <div>{/*  */}</div>
           </div>
         </div>
       </div>
